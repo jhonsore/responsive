@@ -1,0 +1,44 @@
+/*** INICIO ***/
+.clear{clear:both !important; float:none !important; margin:0px !important; padding:0px !important; height:0px !important; width:0px !important}
+.clearfix:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+.clearfix {display: inline-block;}
+html[xmlns] .clearfix {display: block;}
+* html .clearfix {height: 1%;}
+
+img { display:block;}
+a{ text-decoration:none !important;}
+
+body { font-family:Tahoma, Geneva, sans-serif font-size:12px; line-height:14px; color:#424a51; font-weight:300;}
+p, span, h1, h2, h3, h4{letter-spacing:1px;}
+
+body, html {height: 100%;width: 100%;}
+
+/*---------------------------------------------*/
+h1{ font-size:30px; font-weight:lighter; margin:40px 0; color:#999; text-align:center;}
+h2{ font-size:20px; font-weight:lighter; margin:40px 0; color:#999; text-align:center;}
+
+.resp-box{ text-align:center; color:#ffffff; margin-bottom:20px;}
+.resp-box span{ display:block; padding:18px 0;}
+
+#wrapper-center{ width:980px; margin:0 auto;}
+
+@media (max-width: 980px){
+	#wrapper-center{ width:auto;}
+}
+ 
+
+.POMEGRANATE{ background-color:#F22613;}
+.FLAMINGO{ background-color:#EF4836;}
+.TALL{ background-color:#C0392B;}
+.CABARET{ background-color:#D2527F;}
+.WAX { background-color:#F1A9A0;}
+.REBECCAPURPLE{ background-color:#663399;}
+.HONEY { background-color:#674172;}
+.MEDIUM { background-color:#BF55EC;}
+.MARINO{ background-color:#446CB3;}
+.EBONY { background-color:#22313F;}
+.EUCALYPTUS{ background-color:#26A65B;}
+.GOLD{ background-color:#E87E04;}
+.CASABLANCA{ background-color:#F4B350;}
+
+#conteudo-oculto{ display:none}
